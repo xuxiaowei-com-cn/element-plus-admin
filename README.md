@@ -13,6 +13,12 @@ npm init @vitejs/app my-vue-app --template vue
 npm i vue-router@next
 ~~~
 
+## 添加缓存
+
+~~~
+npm i vuex@next
+~~~
+
 ## 相关网址
 
 - [npmjs](https://www.npmjs.com/)
@@ -24,3 +30,5 @@ npm i vue-router@next
 - [vue3 GitHub](https://github.com/vuejs/vue-next)
 - [element-plus](https://element-plus.gitee.io/)
 - [element-plus GitHub](https://github.com/element-plus/element-plus)
+- [vuex](https://vuex.vuejs.org/zh/)
+- [vuex GitHub](https://github.com/vuejs/vuex)
