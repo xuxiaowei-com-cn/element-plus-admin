@@ -7,6 +7,12 @@ npm install -g @vue/cli
 npm init @vitejs/app my-vue-app --template vue
 ~~~
 
+## 添加路由
+
+~~~
+npm i vue-router@next
+~~~
+
 ## 相关网址
 
 - [npmjs](https://www.npmjs.com/)
