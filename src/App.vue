@@ -43,12 +43,9 @@
     <el-container id="app-context">
 
       <el-header id="app-header">
-
-        <el-radio-group v-model="isCollapse" style="margin-bottom: 20px;">
-          <el-radio-button :label="false">展开</el-radio-button>
-          <el-radio-button :label="true">收起</el-radio-button>
-        </el-radio-group>
-
+        <el-button v-if="isCollapse" type="text" class="collapse-button" icon="el-icon-s-unfold"
+                   @click="collapse"></el-button>
+        <el-button v-else type="text" class="collapse-button" icon="el-icon-s-fold" @click="collapse"></el-button>
       </el-header>
 
 
@@ -72,10 +69,14 @@
 export default {
   data() {
     return {
-      isCollapse: false
+      isCollapse: this.$store.state.isCollapse === 'true'
     };
   },
   methods: {
+    collapse() {
+      this.isCollapse = !this.isCollapse;
+      this.$store.commit('setIsCollapse', this.isCollapse)
+    },
     handleOpen(key, keyPath) {
       console.log(key, keyPath);
     },
@@ -109,6 +110,17 @@ export default {
 .el-menu-vertical-demo:not(.el-menu--collapse) {
   width: 200px;
   min-height: 400px;
+}
+
+.collapse-button {
+  width: 50px;
+  background-color: aqua;
+  font-size: 22px !important;
+  color: #606266 !important;
+}
+
+.collapse-button:hover {
+  color: #606266;
 }
 
 </style>
