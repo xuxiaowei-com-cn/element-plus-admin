@@ -4,7 +4,7 @@
 
     <el-aside id="app-aside">
 
-      <el-menu default-active="1-4-1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose"
+      <el-menu default-active="1-4-1" class="app-aside-menu" @open="handleOpen" @close="handleClose"
                :collapse="isCollapse">
         <el-submenu index="1">
           <template #title>
@@ -107,7 +107,7 @@ export default {
   text-align: center;
 }
 
-.el-menu-vertical-demo:not(.el-menu--collapse) {
+.app-aside-menu:not(.el-menu--collapse) {
   width: 200px;
   min-height: 400px;
 }
