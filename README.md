@@ -25,6 +25,12 @@ npm i vuex@next
 npm i element-plus
 ~~~
 
+## 添加 sass
+
+~~~
+npm i -D sass
+~~~
+
 ## 相关网址
 
 - [npmjs](https://www.npmjs.com/)
@@ -40,3 +46,5 @@ npm i element-plus
 - [vuex GitHub](https://github.com/vuejs/vuex)
 - [vue-router](https://router.vuejs.org/zh/)
 - [vue-router GitHub](https://github.com/vuejs/vue-router)
+- [sass GitHub](https://github.com/sass/dart-sass)
+- [Sass中文网](https://www.sass.hk/)
