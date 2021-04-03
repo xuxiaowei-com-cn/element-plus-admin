@@ -19,6 +19,12 @@ npm i vue-router@next
 npm i vuex@next
 ~~~
 
+## 添加 element-plus
+
+~~~
+npm i element-plus
+~~~
+
 ## 相关网址
 
 - [npmjs](https://www.npmjs.com/)
