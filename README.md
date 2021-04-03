@@ -32,3 +32,5 @@ npm i vuex@next
 - [element-plus GitHub](https://github.com/element-plus/element-plus)
 - [vuex](https://vuex.vuejs.org/zh/)
 - [vuex GitHub](https://github.com/vuejs/vuex)
+- [vue-router](https://router.vuejs.org/zh/)
+- [vue-router GitHub](https://github.com/vuejs/vue-router)
